@@ -13,7 +13,7 @@ const PodcastNotes = () => {
       <div className="hostandGuest_box">
         <h3>Hosts and Guests</h3>
         <div className="profile">
-          <img src="../assets/profile1.png" alt="profile" />
+          <img src="../../src/assets/profile1.png" alt="profile" />
           <div className="profile-name">
             <p>
               Jon Buda
@@ -22,7 +22,7 @@ const PodcastNotes = () => {
           </div>
         </div>
         <div className="profile">
-          <img src="../assets/profile3.png" alt="profile" />
+          <img src="../../src/assets/profile3.png" alt="profile" />
           <div className="profile-name">
             <p>
               Jon Buda
@@ -31,7 +31,7 @@ const PodcastNotes = () => {
           </div>
         </div>
         <div className="profile">
-          <img src="../assets/profile2.png" alt="profile" />
+          <img src="../../src/assets/profile2.png" alt="profile" />
           <div className="profile-name">
             <p>
               Jon Buda

@@ -11,8 +11,7 @@ const PodcastPlayer = () => {
         Indie Stories · Jan 24 · Episode 234
         </p>
         <div className = "player">
-        <img src       = "../assets/forward.png" alt = " back" />
-        <img src       = "../assets/backward.png" alt = "front" />
+       
         <audio controls></audio>
           
          

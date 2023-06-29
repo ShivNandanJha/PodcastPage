@@ -1,10 +1,10 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Play - CTA">
-<circle id="Oval" cx="20" cy="20" r="20" fill="url(#paint0_linear_0_62)"/>
-<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M14.8 14H17.2C17.68 14 18 14.3429 18 14.8571V25.1429C18 25.6571 17.68 26 17.2 26H14.8C14.32 26 14 25.6571 14 25.1429V14.8571C14 14.3429 14.32 14 14.8 14ZM22.8 14H25.2C25.68 14 26 14.3429 26 14.8571V25.1429C26 25.6571 25.68 26 25.2 26H22.8C22.32 26 22 25.6571 22 25.1429V14.8571C22 14.3429 22.32 14 22.8 14Z" fill="#8B5CF6"/>
+<circle id="Oval" cx="24.748" cy="24.8736" r="24" transform="rotate(1 24.748 24.8736)" fill="url(#paint0_linear_0_197)"/>
+<path id="Path" d="M22.6345 18.9236C22.4834 18.8159 22.285 18.8008 22.1193 18.8843C21.9536 18.9679 21.8478 19.1363 21.8445 19.3219L21.6525 30.3202C21.6496 30.5059 21.7498 30.6778 21.9127 30.7668C21.9834 30.8063 22.0628 30.8276 22.1437 30.8289C22.2447 30.8306 22.3439 30.8016 22.4282 30.7458L30.5229 25.3863C30.6602 25.2954 30.7439 25.1427 30.7468 24.9781C30.7497 24.8135 30.6713 24.658 30.5373 24.5624L22.6345 18.9236Z" fill="#0EA5E9"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear_0_62" x1="23.9774" y1="-6.84849" x2="-6.23744" y2="15.4925" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_0_197" x1="29.5209" y1="-7.34458" x2="-6.73691" y2="19.4646" gradientUnits="userSpaceOnUse">
 <stop stop-color="white" stop-opacity="0.64"/>
 <stop offset="1" stop-color="white"/>
 </linearGradient>

@@ -22,7 +22,7 @@ export default function PodcastPage() {
     <>
       <nav>
         <div className="navbar">
-          <img src="../assets/logo.png" alt="logo" />
+          <img src="../../src/assets/logo.png" alt="logo" />
 
           <div className="subscribe">
             <p>Subscribe-&gt;</p>
@@ -31,7 +31,7 @@ export default function PodcastPage() {
       </nav>
       <PodcastPlayer />
       <PodcastNotes />
-{/* / */} */
+      <br />
       <PodcastCard />
     </>
   );
