@@ -1,0 +1,12 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Play - CTA">
+<circle id="Oval" cx="20" cy="20" r="20" fill="url(#paint0_linear_0_62)"/>
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M14.8 14H17.2C17.68 14 18 14.3429 18 14.8571V25.1429C18 25.6571 17.68 26 17.2 26H14.8C14.32 26 14 25.6571 14 25.1429V14.8571C14 14.3429 14.32 14 14.8 14ZM22.8 14H25.2C25.68 14 26 14.3429 26 14.8571V25.1429C26 25.6571 25.68 26 25.2 26H22.8C22.32 26 22 25.6571 22 25.1429V14.8571C22 14.3429 22.32 14 22.8 14Z" fill="#8B5CF6"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_62" x1="23.9774" y1="-6.84849" x2="-6.23744" y2="15.4925" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.64"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=HK+Grotesk:wght@500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-permanent-marker: "Permanent Marker";
+  --font-hk-grotesk: "HK Grotesk";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-29xl: 48px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-5xl: 24px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-slategray: #64748b;
+  --color-lightslategray: #94a3b8;
+  --color-aliceblue-100: #f1f5f9;
+  --color-dodgerblue: #3b82f6;
+  --color-lightskyblue: #93c5fd;
+  --color-gray-100: #1e293b;
+  --color-gray-200: rgba(255, 255, 255, 0.32);
+
+  /* border radiuses */
+  --br-5xl: 24px;
+  --br-9xs: 4px;
+}
