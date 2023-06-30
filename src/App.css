@@ -6,6 +6,12 @@ body {
   margin: 0; /* Added to reset default margin */
   padding: 0; /* Added to reset default padding */
 }
+.app{
+  width     : 90vw;
+  height    : auto;
+  box-sizing: border-box;
+  margin: 0;padding: 0;
+}
 
 .navbar {
   margin: 20px 10px 20px 70px; /* Removed unnecessary margin */
@@ -482,16 +488,16 @@ body {
   }
 }
 @media only screen and (max-width: 440px) {
-  body {
-    width: 90%;
-    margin: 0;
-    padding: 0;
+  .app {
+    width     : 90vw;
+    margin    : 0;
+    padding   : 0;
     box-sizing: border-box;
   }
 }
 @media only screen and (max-width: 768px) {
   /* Styles for screens smaller than 768px */
-  body {
+  .app {
     width: 90%;
     margin: 0;
     padding: 0;

@@ -4,7 +4,7 @@ import PodcastCard from "./PodcastCard";
 import PodcastNotes from "./PodcastNotes";
 import PodcastPlayer from "./Podcastplayer";
 
-// const PodcastDetails = () => {
+
 //     return (
 //       <div className="text">
 //         <img

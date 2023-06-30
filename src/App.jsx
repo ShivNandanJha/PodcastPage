@@ -1,11 +1,14 @@
 // import { useState } from 'react'
 import './App.css'
-import PodcastPage from './components/podcastpage';
+import PodcastPage from './components/PodcastPage';
 
 function App() {
   return (
     <>
-      <PodcastPage/>
+      <div className = "app">
+          <PodcastPage/>
+      </div>
+    
      
     </>
   )
