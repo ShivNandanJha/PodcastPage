@@ -1,19 +1,24 @@
-import { useEffect, useState } from "react";
-import "../App.css"; // Import CSS file for styling
+import { useState, useEffect, useRef } from 'react';
+
 
 function PodcastCard() {
   const [slideIndex, setSlideIndex] = useState(1); // Use state to manage slide index
-  let slides;
+  const slidesRef = useRef(null);
 
   useEffect(() => {
-    slides = document.querySelectorAll(".slide");
-    showSlide(slideIndex);
+    const slides = slidesRef.current.querySelectorAll('.slide');
+    showSlide(slideIndex, slides);
   }, [slideIndex]);
+
+  useEffect(() => {
+    const slides = slidesRef.current.querySelectorAll('.slide');
+    showSlide(slideIndex, slides);
+  }, [slideIndex]); // Call once during initial render
 
   function prevSlide() {
     setSlideIndex((prevIndex) => {
       if (prevIndex === 1) {
-        return slides.length;
+        return slidesRef.current.children.length;
       } else {
         return prevIndex - 1;
       }
@@ -22,7 +27,7 @@ function PodcastCard() {
 
   function nextSlide() {
     setSlideIndex((prevIndex) => {
-      if (prevIndex === slides.length) {
+      if (prevIndex === slidesRef.current.children.length) {
         return 1;
       } else {
         return prevIndex + 1;
@@ -30,24 +35,26 @@ function PodcastCard() {
     });
   }
 
-  function showSlide(index) {
+  function showSlide(index, slides) {
     slides.forEach((slide) => {
-      slide.style.display = "none";
+      slide.style.display = 'none';
     });
 
-    const firstVisibleSlide = (index - 1) % slides.length;
+    const firstVisibleSlide  = (index - 3 + slides.length) % slides.length;
     const secondVisibleSlide = index % slides.length;
-    const thirdVisibleSlide = (index + 1) % slides.length;
+    const thirdVisibleSlide  = (index + 1) % slides.length;
+    const fourthVisibleSlide  = (index + 2) % slides.length;
 
-    slides[firstVisibleSlide].style.display  = "block";
-    slides[secondVisibleSlide].style.display = "block";
-    slides[thirdVisibleSlide].style.display  = "block";
-    
+    slides[firstVisibleSlide].style.display  = 'block';
+    slides[secondVisibleSlide].style.display = 'block';
+    slides[thirdVisibleSlide].style.display  = 'block';
+    slides[fourthVisibleSlide].style.display  = 'block';
   }
+
   return (
     <>
       <div className="carousel">
-        <div className="slides-container">
+        <div ref={slidesRef} className="slides-container">
           <div className="slide slide1">
             <h1>Sick Leave for Indie Founders?</h1>
             <p>Indie Stories · Jan 24 · Episode 234</p>
@@ -68,12 +75,12 @@ function PodcastCard() {
             <p>Indie Stories · Jan 24 · Episode 234</p>
             <img src="../../src/assets/Play.svg" alt="" />
           </div>
-          <div className="slide slide5">
+          <div className = "slide slide5">
             <h1>Sick Leave for Indie Founders Lorem, ipsum dolor.</h1>
             <p>Indie Stories · Jan 24 · Episode 234</p>
             <img src="../../src/assets/Play.svg" alt="" />
           </div>
-        
+          
         </div>
         <button className="prev" onClick={prevSlide}>
           &#10094;
@@ -87,3 +94,9 @@ function PodcastCard() {
 }
 
 export default PodcastCard;
+
+
+
+
+
+
