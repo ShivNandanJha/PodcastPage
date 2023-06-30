@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
-import PodcastPage from '../src/components/PodcastPage';
+import PodcastPage from '../src/components/PodcastPage.jsx';
 
 function App() {
   return (
