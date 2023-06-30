@@ -18,7 +18,7 @@ import PodcastPlayer from "./Podcastplayer";
 //   };
 
 // Main PodcastPage component
-export default function PodcastPage() {
+function PodcastPage() {
   return (
     <>
       <nav>
@@ -39,3 +39,5 @@ export default function PodcastPage() {
     </>
   );
 }
+
+export default PodcastPage;
