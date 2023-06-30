@@ -1,4 +1,5 @@
 import "../App.css";
+import PodcastFooter from "../PodcastFooter";
 import PodcastCard from "./PodcastCard";
 import PodcastNotes from "./PodcastNotes";
 import PodcastPlayer from "./Podcastplayer";
@@ -24,15 +25,17 @@ export default function PodcastPage() {
         <div className="navbar">
           <img src="../../src/assets/logo.png" alt="logo" />
 
-          <div className="subscribe">
-            <p>Subscribe-&gt;</p>
-          </div>
+          <button className="button">
+           Subscribe-&gt;
+          </button>
         </div>
       </nav>
       <PodcastPlayer />
       <PodcastNotes />
       <br />
       <PodcastCard />
+      <br/>
+      <PodcastFooter/>
     </>
   );
 }

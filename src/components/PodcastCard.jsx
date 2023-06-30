@@ -39,9 +39,10 @@ function PodcastCard() {
     const secondVisibleSlide = index % slides.length;
     const thirdVisibleSlide = (index + 1) % slides.length;
 
-    slides[firstVisibleSlide].style.display = "block";
+    slides[firstVisibleSlide].style.display  = "block";
     slides[secondVisibleSlide].style.display = "block";
-    slides[thirdVisibleSlide].style.display = "block";
+    slides[thirdVisibleSlide].style.display  = "block";
+    
   }
   return (
     <>
@@ -72,11 +73,7 @@ function PodcastCard() {
             <p>Indie Stories · Jan 24 · Episode 234</p>
             <img src="../../src/assets/Play.svg" alt="" />
           </div>
-          <div className="slide slide3">
-            <h1>Sick Leave for Indie Founders?</h1>
-            <p>Indie Stories · Jan 24 · Episode 234</p>
-            <img src = "../../src/assets/Play.svg" alt = "" />
-          </div>
+        
         </div>
         <button className="prev" onClick={prevSlide}>
           &#10094;

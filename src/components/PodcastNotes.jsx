@@ -2,8 +2,8 @@
 const PodcastNotes = () => {
   return (
     <div className = "content">
-      <h1 className="h-1">Notes</h1>
-      <p className="in-this-episode-it">
+    <h1  className = "h-1">Notes</h1>
+    <p   className = "Notes-text">
         In this episode,&nbsp;&nbsp;It has survived not only five centuries, but
         also the leap into electronic typesetting, remaining essentially
         unchanged. It was popularised in the with the release of letraset sheets
@@ -40,7 +40,7 @@ const PodcastNotes = () => {
           </div>
         </div>
       </div>
-      <div  className = "topics">Topics</div>
+      <div className="topics">Topics</div>
       <div className="topic-container">
         <div className="text-2">
           <span className="span">›</span>
@@ -118,14 +118,13 @@ const PodcastNotes = () => {
         {/* </div> */}
       </div>
 
-   
-      <div className = "contribution-container">
-      <div className="text-wrapper-10">Contributors</div>
-      <div  className = "text-2">
-      <span className = "span">— </span>
-      <span className = "text-wrapper-8">Jon Buda</span>
-      <span className = "text-wrapper-5">&nbsp;</span>
-      <span className = "text-wrapper-6">
+      <div className="contribution-container">
+        <div className="text-wrapper-10">Contributors</div>
+        <div className="text-2">
+          <span className="span">— </span>
+          <span className="text-wrapper-8">Jon Buda</span>
+          <span className="text-wrapper-5">&nbsp;</span>
+          <span className="text-wrapper-6">
             lives in London, UK. He&#39;s been involved in the podcasting world
             since 2013, and has been building software since 2002.
             <br />
@@ -150,16 +149,17 @@ const PodcastNotes = () => {
             {" "}
             lives in London, UK. He&#39;s been involved in the podcasting world
             since 2013, and has been building software since 2002.
-        </span><p className = "if-you-liked-this-ep">
-        <span     className = "text-wrapper-11">
-          If you liked this episode, popularised in the with the release of
-          letraset sheets containing passages, and more recently with desktop{" "}
-        </span>
-        <span className = "text-wrapper-12">@PublishingSoftware</span>
-        <span className = "text-wrapper-11">.</span>
-      </p>
+          </span>
+          <p className="if-you-liked-this-ep">
+            <span className="text-wrapper-11">
+              If you liked this episode, popularised in the with the release of
+              letraset sheets containing passages, and more recently with
+              desktop{" "}
+            </span>
+            <span className="text-wrapper-12">@PublishingSoftware</span>
+            <span className="text-wrapper-11">.</span>
+          </p>
         </div>
-        
       </div>
     </div>
   );
