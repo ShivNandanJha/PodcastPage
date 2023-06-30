@@ -1,5 +1,5 @@
 import "../App.css";
-import PodcastFooter from "../PodcastFooter";
+import PodcastFooter from "./PodcastFooter";
 import PodcastCard from "./PodcastCard";
 import PodcastNotes from "./PodcastNotes";
 import PodcastPlayer from "./Podcastplayer";

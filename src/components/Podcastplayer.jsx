@@ -12,7 +12,7 @@ const PodcastPlayer = () => {
         </p>
        <div className = "player">
        <img src       = "../../src/assets/backward.svg" alt = "" />
-       <img src       = "../../src/assets/forward.svg" alt = "" />
+       <img src       = "../../src/assets/forward.svg" alt  = "" />
         <audio controls></audio>
           
          
